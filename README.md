@@ -29,4 +29,4 @@ jupyter notebook
 
 ## Open in colab
 >[!Note]
->To open in colab, click on ![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)] at the top of the notebook.
+>To open in colab, click on ![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg) at the top of the notebook.
