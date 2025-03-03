@@ -16,6 +16,12 @@ conda create -n genreclassification python=3.10
 conda activate genreclassification
 ```
 
+**Install CUDA and CuDNN**
+
+```bash
+conda install -c conda-forge -y cudatoolkit=11.2 cudnn=8.1
+```
+
 **Install dependencies**
 
 ```bash
@@ -24,7 +30,7 @@ pip install -r requirements.txt
 
 **Run jupyter server**
 ```bash
-jupyter notebook
+CUDA_VISIBLE_DEVICES=0 TF_CPP_MIN_LOG_LEVEL=3 jupyter notebook
 ```
 
 ## Open in colab
