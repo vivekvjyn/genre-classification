@@ -5,7 +5,7 @@
 **Clone the repository**
 
 ```bash
-git clone https://github.com/enter-opy/genre-classification.git
+git clone https://github.com/vivekvjyn/genre-classification.git
 cd genre-classification
 ```
 
